@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #98d1ff;
+    --cor-texto-footer: #fd3939;
+    --cor-texto-titulo: #f3d05b;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3.12rem;
+    font-family: 'Pixelify Sans', sans-serif;
+
+
+}
+
+.titulo_game_over {
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    color: var(--cor-texto-titulo);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: var(--cor-texto-footer);
+}
+
+.texto_game_over {
+    font-size: 2rem;
+    color: var(--cor-texto-footer);
+}
+
+.botao_play {
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img_play {
+    width: 10rem;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+:root {
+    --cor-fundo: #98d1ff;
+    --cor-texto-footer: #fd3939;
+    --cor-texto-titulo: #f3d05b;
+}
+
+.titulo-super-mario {
+    font-size: 7rem;
+    color: var(--cor-texto-titulo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: var(--cor-texto-footer);
+    margin-top: 1rem;
+}
+
+.texto-feito-por {
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16%;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-inicio-img {
+    width: 10rem;
+}
+
+.btn-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
